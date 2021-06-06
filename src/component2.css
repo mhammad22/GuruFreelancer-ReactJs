@@ -1,0 +1,583 @@
+.Cheader {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  border-top: 4px solid #2777c6;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 20%);
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+.OContainer {
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.HeaderRow {
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.HeaderRowLogo {
+  flex: 0 1 auto;
+}
+
+.LogoA {
+  color: #3e76b8;
+  text-decoration: none;
+}
+
+.LogoHeight {
+  height: "30";
+  width: "130";
+}
+
+.HeaderRowNavigation {
+  display: flex;
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: auto;
+  padding: 0;
+}
+
+.HeaderNavigation {
+  display: flex;
+  padding: 1.25rem 0;
+  margin-left: 1.125rem;
+  align-items: stretch;
+  color: #111;
+  font-weight: 600;
+}
+
+.Arrow {
+  height: 8px;
+  width: 9px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.Arrow1 {
+  height: 8px;
+  width: 9px;
+  margin-top: 0px;
+  margin-left: 4px;
+}
+
+.HeaderRowAccount {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1 1 0%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.TopNavPostJob {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  display: inline-block;
+  background: #005ea6;
+  border: 1px solid #005ea6;
+  opacity: 0.9;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 6px;
+  margin: 0;
+}
+
+.HeaderNavigationItem {
+  font-size: 0.875rem;
+  display: flex;
+  padding: 1.25rem 0;
+  margin-left: 1.125rem;
+  align-items: stretch;
+}
+
+.HeaderIcon {
+  display: flex;
+  color: #111;
+  font-weight: 600;
+  align-items: center;
+}
+
+.ImgSignup {
+  height: 26px;
+  width: 26px;
+}
+
+.ModuleHeader {
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  padding: 18px 0;
+  position: relative;
+}
+
+.ModuleText1 {
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.ModuleText2 {
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+}
+
+.HeaderModuleWhole {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.FilterLayout {
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.InputDiv {
+  position: static;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.DropdownCategory1 {
+  display: flex;
+  align-items: stretch;
+  width: auto;
+}
+
+.CategoryButton {
+  font-weight: 400;
+  color: #666;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  text-shadow: none;
+  margin: 0;
+  position: relative;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+}
+
+.CategoryLogo {
+  margin-right: 0.5em;
+  height: 18px;
+  width: 15px;
+}
+
+.CategoryText {
+  display: inline;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.42;
+  font-size: 13px;
+  color: #666;
+}
+
+.InputGroup {
+  margin-left: -1px;
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.TypeHead {
+  font-size: 14px;
+  padding: 6px 6px 6px 6px;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  resize: vertical;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+}
+
+.TypeHeadContainer {
+  display: flex;
+  align-items: center;
+}
+
+.TypeHeadContainerInput {
+  flex: 1 0 35%;
+}
+
+.Search {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  padding: 6px 6px 6px 6px;
+  display: block;
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 2px;
+  box-sizing: border-box;
+  resize: vertical;
+  line-height: 1.4;
+}
+
+.InputClassBtn {
+  margin-left: -1px;
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  align-items: stretch;
+  width: auto;
+  display: flex;
+}
+
+.SearchBtn {
+  font-weight: 400;
+  color: #666;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  text-shadow: none;
+  margin: 0;
+  position: relative;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin: 0 6px 0 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.SearchBtnLogo {
+  font-weight: 400;
+  color: #666;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  text-shadow: none;
+  width: 18px;
+  height: 14px;
+}
+
+.DropdownLocation {
+  margin-left: 1em;
+  display: flex;
+  align-items: stretch;
+}
+
+.LocationBtn {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #666;
+  margin: 0;
+  margin-left: 5px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  text-align: center;
+  text-shadow: 0 1px rgb(0 0 0 / 10%);
+}
+
+.LocationLogo {
+  margin-right: 0.5em;
+  height: 18px;
+  width: 12px;
+}
+
+.LocationLogofiltr {
+  margin-right: 0.5em;
+  height: 18px;
+  width: 15px;
+}
+
+.HiddenClass {
+  visibility: hidden;
+}
+
+.DropdownCategory1 > .DropdownCategory {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #999;
+  position: absolute;
+  height: auto;
+  top: 100%;
+  bottom: auto;
+  padding: 0;
+  background-color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  left: 0px;
+  right: 0px;
+  width: auto;
+  z-index: 1000;
+  min-width: 200px;
+  box-sizing: border-box;
+}
+
+.DropdownCategoryWrap {
+  display: block;
+  border: 0;
+  box-shadow: none;
+  max-height: none;
+}
+
+.DropdownComboBox {
+  background: #fff;
+  flex: auto;
+  white-space: nowrap;
+}
+
+.CategoryFilter {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+
+.CategoryFilterGroup {
+  flex: 0 0 calc(33.333% - 2px);
+  margin-bottom: 24px;
+  white-space: normal;
+  border-bottom: none;
+}
+
+.Expand {
+  margin: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  display: block;
+}
+
+.StyleCategory {
+  font-size: 14px;
+}
+
+.CategoryFilterGroup .ModuleList {
+  margin-bottom: 18px;
+}
+
+.ModuleList {
+  padding-left: 15px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.CategoryFilterGroup .active {
+  background: #4c83c3;
+}
+
+.CategoryFilter .ModuleList .Tighter > li {
+  padding-left: 18px;
+  padding-right: 18px;
+  position: relative;
+}
+
+.ModuleList .NoBorder > li {
+  border-bottom: none;
+}
+
+.ModuleList .Tighter > li {
+  padding: 6px 0;
+}
+
+.ModuleList > li {
+  display: block;
+}
+
+.RespDropdrownAction {
+  display: flex;
+  background: #eee;
+  border-top: 1px solid #ddd;
+  padding: 12px;
+  flex: none;
+  justify-content: space-between;
+}
+
+.ModuleBtn2 {
+  position: relative;
+  background-image: none;
+  border: 1px solid #4c83c3;
+  border-radius: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  text-align: center;
+  text-shadow: 0 1px rgb(0 0 0 / 10%);
+  justify-content: right;
+}
+
+.dropdowncheck {
+  font-size: 13px;
+  right: 100px;
+  left: auto;
+  display: flex;
+  border: 1px solid #999;
+  position: absolute;
+  top: 100%;
+  bottom: auto;
+  padding: 0;
+  background-color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  width: auto;
+  z-index: 1000;
+  margin: 0;
+}
+
+.DropDownFilter {
+  font-size: 13px;
+  right: 0;
+  left: auto;
+  display: flex;
+  border: 1px solid #999;
+  position: absolute;
+  top: 100%;
+  bottom: auto;
+  padding: 0;
+  background-color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  width: auto;
+  z-index: 1000;
+  margin: 0;
+}
+
+.DropDownFilterWrapper {
+  display: block;
+  border: 0;
+  box-shadow: none;
+  max-height: none;
+}
+
+.RespDropdownContent {
+  background: #fff;
+  flex: auto;
+  overflow-y: auto;
+  white-space: nowrap;
+}
+
+.ModuleListFilter {
+  padding-left: 0px;
+}
+
+.FilterGroup {
+  display: flex;
+  margin: 18px;
+  flex-wrap: wrap;
+}
+
+.FilterGroupFifths > * {
+  flex: 1 0 auto;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  border-bottom: none;
+}
+
+.FilterGroupHeading {
+  margin: 0 0 12px 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  display: block;
+}
+
+.FilterGroup > * .ModuleListFilter {
+  margin-bottom: 0;
+}
+
+.g-chkradio {
+  opacity: 1;
+}
+
+g-chkradio + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+
+.RespDropdownAction {
+  display: flex;
+  background: #eee;
+  border-top: 1px solid #ddd;
+  padding: 12px;
+  flex: none;
+}
+
+.LinkBtnFilter {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.ModuleBtnApply {
+  font-weight: 600;
+  color: #fff;
+  background-color: #3e76b8;
+  border-color: #3a6fac;
+  margin: 0;
+  position: relative;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* CSS for Location Drop down filter */
